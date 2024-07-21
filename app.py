@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-car_data = pd.read_csv('C:/Users/nicol/OneDrive/Escritorio/vehicles_env/vehicles_us.csv', sep=',')
+car_data = pd.read_csv(r'C:/Users/nicol/OneDrive/Escritorio/vehicles_env/vehicles_us.csv', sep=',')
 print(car_data)
 
 # Display the DataFrame (optional)
